@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+:root {
+  --background: 120 35% 85%;
+  --foreground: 140 30% 15%;
+  --card: 120 30% 92%;
+  --card-foreground: 140 30% 15%;
+  --primary: 145 55% 32%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 45 100% 55%;
+  --secondary-foreground: 30 50% 15%;
+  --accent: 45 100% 50%;
+  --accent-foreground: 30 50% 15%;
+  --radius: 0.75rem;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
